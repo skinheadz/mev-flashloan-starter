@@ -30,7 +30,7 @@ $ npx hardhat --network private run scripts/deploy.ts
 ```
 or 
 ```bash
-$ npx hardhat --network private run scripts/deploy.ts
+$ npx hardhat --network goerli run scripts/deploy.ts
 ```
 
 ## Bot implementation
