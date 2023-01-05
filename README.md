@@ -26,7 +26,11 @@ For example,
 
 ```bash
 $ npx hardhat node --fork 'https://eth-goerli.public.blastapi.io' --show-stack-traces
-$ npx hardhat --network goerli run scripts/deploy.ts
+$ npx hardhat --network private run scripts/deploy.ts
+```
+or 
+```bash
+$ npx hardhat --network private run scripts/deploy.ts
 ```
 
 ## Bot implementation
