@@ -6,7 +6,7 @@ This repo is written only for POC. The contract is simple and does not contain a
 (use v2 for that, you won't be able to do anything on eth anyways, thanks to mempool 🥪)
 
 
-##:love_hotel:
+## :love_hotel:
 A flash loan starter contract can be used to borrow money for single transaction from AAVE V3 for networks:
 Polygon, Optimism, Arbitrum, Harmony, Fantom, Avalanche.
 
