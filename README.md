@@ -60,4 +60,6 @@ goerli faucets:
 
 <img width="566" alt="Screen Shot 2023-01-05 at 1 16 53 PM" src="https://user-images.githubusercontent.com/113230343/210883514-8231d0c7-d6f3-4614-b024-077f69f8add1.png">
 
+## Resources
 
+[Flashloan with Aave V3 - detailed description of protocol](https://link.medium.com/lHRUvcryYqb)
