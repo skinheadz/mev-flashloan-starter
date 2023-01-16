@@ -3,12 +3,20 @@
 This project demonstrates a basic Hardhat use case. It comes with a sample contract, and a script that deploys that contract.
 
 This repo is written only for POC. The contract is simple and does not contain any arbitrage or swap logic. It is written as a starting kit for your own implementations. Such as liquidation, or arbitrage bot. Since it uses AAVE_V3, IT DOES NOT SUPPORT ETH Mainnet. 
-(use v2 for that, you won't be able to do anything on eth anyways, thanks to mempool 🥪)
+(use v2 for that, you won't be able to do anything on eth anyways, thanks to mempool [🥪)](https://calblockchain.mirror.xyz/c56CHOu-Wow_50qPp2Wlg0rhUvdz1HLbGSUWlB_KX9o)
 
 
-## :love_hotel:
+## :angel:
 A flash loan starter contract can be used to borrow money for single transaction from AAVE V3 for networks:
 Polygon, Optimism, Arbitrum, Harmony, Fantom, Avalanche.
+
+## [Fork](https://github.com/skinheadz/mev-flashloan-starter/fork) project
+```bash
+git clone https://github.com/skinheadz/mev-flashloan-starter.git
+cd mev-flashloan-starter
+npm install
+```
+
 
 ## Deploy the contract
 1. Edit network config in `hardhat.config.ts`.
@@ -33,7 +41,7 @@ or
 $ npx hardhat --network goerli run scripts/deploy.ts
 ```
 
-## Bot implementation
+## Bot functions implementation
 
 The contract has a function `executeOperation`, which will be run by Lending Protocol. Here you specify your custom logic with borrowed funds.
 
@@ -43,12 +51,11 @@ Contract owner can call `withdraw()` to withdraw the profit.
 
 ## Remix Instructions:
 
-1. Copy and paste the contract code into remix.
+1. Copy and paste FlashLoan.sol into remix.
 2. Compile
 3. Choose Metamask as provider.
 4. Input Deployed contract address
-5. Run requestFlashLoan()
-
+5. Run requestFlashLoan(token, amount)
 
 
 sample flashloan tx on goerli:
