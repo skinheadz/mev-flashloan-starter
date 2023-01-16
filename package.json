@@ -1,7 +1,7 @@
 {
   "name": "hardhat-project",
   "scripts": {
-    "deploy": "npx hardhat run --network bsc scripts/deploy.js"
+    "deploy": "npx hardhat run --network goerli scripts/deploy.ts"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.0",
