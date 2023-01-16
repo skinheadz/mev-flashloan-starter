@@ -70,3 +70,7 @@ goerli faucets:
 ## Resources
 
 [Flashloan with Aave V3 - detailed description of protocol](https://link.medium.com/lHRUvcryYqb)
+
+
+
+![](https://user-images.githubusercontent.com/113230343/212747417-cc8a94e8-4dc7-44bc-ac02-618664ecbc56.gif)
