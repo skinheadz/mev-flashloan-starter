@@ -49,7 +49,7 @@ The bot need to call `requestFlashLoan(token, amount)` to get the requested toke
 
 Contract owner can call `withdraw()` to withdraw the profit.
 
-## Remix Instructions:
+## Remix/ChainIDE Instructions:
 
 1. Copy and paste FlashLoan.sol into remix.
 2. Compile
